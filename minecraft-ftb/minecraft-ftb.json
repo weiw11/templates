@@ -86,21 +86,21 @@
       "if": "os == 'windows'",
       "type": "download",
       "files": [
-        "https://api.modpacks.ch/public/modpack/${modpack_id}/${modpack_version}/server/windows"
+        "https://api.feed-the-beast.com/v1/modpacks/public/modpack/${modpack_id}/${modpack_version}/server/windows"
       ]
     },
     {
       "if": "os == 'linux' && arch == 'amd64'",
       "type": "download",
       "files": [
-        "https://api.modpacks.ch/public/modpack/${modpack_id}/${modpack_version}/server/linux"
+        "https://api.feed-the-beast.com/v1/modpacks/public/modpack/${modpack_id}/${modpack_version}/server/linux"
       ]
     },
     {
       "if": "os == 'linux' && arch == 'arm64'",
       "type": "download",
       "files": [
-        "https://api.modpacks.ch/public/modpack/${modpack_id}/${modpack_version}/server/arm/linux"
+        "https://api.feed-the-beast.com/v1/modpacks/public/modpack/${modpack_id}/${modpack_version}/server/arm/linux"
       ]
     },
     {
