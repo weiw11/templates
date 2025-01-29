@@ -152,7 +152,7 @@
     {
       "type": "download",
       "files": [
-        "https://minecraft.azureedge.net/bin-linux/bedrock-server-${version}.zip"
+        "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-${version}.zip"
       ]
     },
     {
